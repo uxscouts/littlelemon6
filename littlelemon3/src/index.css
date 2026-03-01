@@ -158,14 +158,17 @@ h1, h2, h3, h4, h5, h6, label {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Creates two equal columns */
   width: 100%;
+  padding-top: 30px;
 }
 
 .item-left {
   justify-self: start; /* Aligns the item to the left edge of its cell */
+  padding-left: 20px;
 }
 
 .item-right {
   justify-self: end; /* Aligns the item to the right edge of its cell */
+  padding-right: 20px;
 }
 
 /* Ensure padding and border are included in the element's total width and height */
@@ -276,5 +279,42 @@ card {
 }
 
 
+.material-symbols-rounded {
+	font-variation-settings: "FILL" 1;
+	color: #f4ce14;
+}
 
+.tiny-icon {
+	width: 46px;
+	height: 46px;
+	object-fit: cover;
+}
+
+
+.reviewsContainer {
+	display: flex;
+	/* Enables flexbox layout in a block-level container */
+	justify-content: space-around;
+	/* Distributes space around the items */
+	padding: 100px 30px 100px 30px;
+	font-size: 84%;
+}
+
+.review-module {
+	flex: 1;
+	/* Makes all boxes equal width and flexible */
+	background-color: #fff;
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	transition: transform 0.3s ease-in-out;
+	/* Smooth transition */
+}
+
+.review-module:hover {
+	transform: scale(1.05);
+	/* 5% expansion */
+}
 
