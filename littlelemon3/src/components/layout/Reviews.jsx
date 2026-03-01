@@ -2,6 +2,7 @@
 function Reviews() {
   return (
     <>
+      <div class="super-container">
       <h1 className="text-center mt-5">What do our customers think?</h1>
       <div className="reviewsContainer">
         <article aria-label="Review" className="review-module">
@@ -152,6 +153,7 @@ function Reviews() {
             "Best Feta Salad in town. Flawless every time!"
           </p>
         </article>
+      </div>
       </div>
     </>
   );
