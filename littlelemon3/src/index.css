@@ -102,35 +102,6 @@ url("./assets/fonts/MarkaziText-SemiBold.ttf")
   padding: 20px;
 }
 
-/*
-.karla-200 {
-  font-family: "Karla", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.karla-300 {
-  font-family: "Karla", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.karla-400 {
-  font-family: "Karla", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.karla-800 {
-  font-family: "Karla", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-}
-*/
 
 .lightGrey {
   background-color: light;
@@ -474,3 +445,28 @@ card {
         }
 
 
+.MenuBox {
+    background-color: #EDEFEE;
+    padding: 20px;
+    text-align: left;
+    color: #777777;
+}
+
+.grid-container-footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem; /* Adds space between grid items */
+}
+
+.super-container-footer {
+  max-width: 1200px; 
+  margin: 0px auto;
+  background-color: #EDEFEE;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.maxWidth-footer {
+  background-color: #EDEFEE;
+  display: block;
+  width: 100%;
+}
