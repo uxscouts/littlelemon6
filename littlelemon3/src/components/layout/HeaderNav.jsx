@@ -1,4 +1,3 @@
-import React from 'react';
 import { Nav, Navbar, Container, Button } from 'react-bootstrap';
 import LogoComponent  from './LemonLogo'; 
 

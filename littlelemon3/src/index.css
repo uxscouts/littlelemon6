@@ -32,6 +32,11 @@
   margin-bottom: -40px;
 }
 
+@media (max-width: 740px) {
+  .Tray_of_Fancy_Sushi  {
+    display: none;
+  }
+}
 
 .grid-item {
   padding: 20px;
